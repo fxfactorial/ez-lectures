@@ -1,0 +1,41 @@
+{
+  "name": "@algebr/ez-lectures",
+  "version": "0.0.1",
+  "preferGlobal": true,
+  "bin": {
+    "ez-lectures": "bin/index.js"
+  },
+  "files": [
+    "bin",
+    "build"
+  ],
+  "scripts": {
+    "start": "babel -d build -w lib",
+    "prepare": "babel -d build "
+  },
+  "description": "Easily make a self contained single HTML file for coding based lectures",
+  "author": "Edgar Aroutiounian <edgar.factorial@gmail.com>",
+  "license": "GPL-3.0",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fxfactorial/ez-lectures.git"
+  },
+  "engines": {
+    "node": ">=8.2.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
+    "babel-preset-react": "^6.24.1",
+    "flow": "^0.2.3",
+    "prettier": "^1.9.1"
+  },
+  "dependencies": {
+    "chalk": "^2.3.0",
+    "fs-extra": "^4.0.3",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "semver": "^5.4.1"
+  }
+}
