@@ -32,10 +32,36 @@ module.exports = {
     byline: 'The fastest way to ship a mobile app',
   },
   content_slides: [
-    { title: 'hello world', content: [] },
-    { title: 'hello world', content: [] },
-    { title: 'hello world', content: [] },
-    { title: 'hello world', content: [] },
+    {
+      title: 'First slide title',
+      content: [
+        'hello world',
+        {
+          language: 'javascript',
+          code: `
+console.log('Hello world');
+// Bad code!
+const f = () => f()
+`,
+        },
+      ],
+    },
+    {
+      title: 'hello 2',
+      content: [
+        'Some C++ code',
+        {
+          language: 'c++',
+          code: `
+int main() {
+  return 1;
+}
+`,
+        },
+      ],
+    },
+    { title: 'hello 3', content: [] },
+    { title: 'hello 5', content: [] },
     { title: 'hello world', content: [] },
   ],
 };
