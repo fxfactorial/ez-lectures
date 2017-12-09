@@ -49,7 +49,7 @@ const f = () => f()
     {
       title: 'hello 2',
       content: [
-        'Some C++ code',
+        'Some C++ code, oh yay, more',
         {
           language: 'c++',
           code: `
