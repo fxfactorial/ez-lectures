@@ -11,7 +11,7 @@
   ],
   "scripts": {
     "start": "babel -d build -w lib",
-    "prepare": "babel -d build "
+    "prepare": "babel -d build lib"
   },
   "description": "Easily make a self contained single HTML file for coding based lectures",
   "author": "Edgar Aroutiounian <edgar.factorial@gmail.com>",
