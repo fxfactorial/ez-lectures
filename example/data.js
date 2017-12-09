@@ -1,6 +1,5 @@
 module.exports = {
   presentation: {
-    theme: '123',
     title: 'Mobile apps with Expo',
     global_styles: `  section h4 {
     display:flex;
@@ -49,14 +48,21 @@ const f = () => f()
     {
       title: 'hello 2',
       content: [
-        'Some C++ code, oh yay, more',
+        'Some C code, oh yay',
         {
-          language: 'c++',
+          language: 'c',
           code: `
-int main() {
+#include "stdlib.h"
+
+typedef struct{
+  int tab[1];
+} ts;
+
+int main(void) {
+  ts *q = malloc(5*sizeof(int));
+  q->tab[2]= 5;
   return 1;
-}
-`,
+}`,
         },
       ],
     },
