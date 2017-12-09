@@ -6,7 +6,7 @@ Easily make beautiful lectures!
 
 ```
 $ yarn global add @algebr/ez-lectures
-$ ez-lectures --src-slides slides.json
+$ ez-lectures --src-slides slides.json --watch
 ```
 
 ## Data structures expected for lectures. 
