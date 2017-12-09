@@ -56,5 +56,14 @@ type slide = {
 
 See `example/data.js` for an example of correct slide data input.
 
+```
+ez-lectures --src-slides data.js --watch
+```
+
 ![](./sky-example.png)
+
+```
+ez-lectures --src-slides data.js --watch --slide-theme solarized --code-theme arduino-light
+```
+
 ![](./solarized.png)
