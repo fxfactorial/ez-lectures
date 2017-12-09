@@ -55,3 +55,6 @@ type slide = {
 ```
 
 See `example/data.js` for an example of correct slide data input.
+
+![](./sky-example.png)
+![](./solarized.png)
